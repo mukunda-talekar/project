@@ -1,28 +1,25 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: skyblue;
-    font-family:sans-serif;
-    font-weight: bolder;
 }
-.header{
-   
-}
-.header{
+header nav{
     display: flex;
-    text-align: center;
     justify-content: space-between;
-    
-    background-color: aliceblue;
-    width: 100%;
-    
-    margin-top: 7px;
-
-    
+    align-items: center;
+    padding: 12px 20px;
+    background-color: aqua;
 }
 .logo{
     font-size: 50px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ header nav ul{
+    display: block;
+    justify-content: left;
 }
